@@ -1,0 +1,10 @@
+.git
+.gitignore
+.wrangler
+.idea
+.vscode
+.DS_Store
+storage/lands/*.json
+storage/runtime/rate-limit/*.json
+/.env.production
+/.env.production.example

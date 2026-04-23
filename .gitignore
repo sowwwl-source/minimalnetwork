@@ -1,0 +1,23 @@
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Env / secrets
+.env
+.env.*
+
+# Runtime storage
+/storage/lands/*.json
+!/storage/lands/.gitignore
+/storage/runtime/rate-limit/*.json
+!/storage/runtime/rate-limit/.gitignore
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.ppk
+.wrangler/
+temporary
